@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2019-01-03 10:59:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+The Dean of the Graduate College has approved my request for joining the University of Groningen on a Double PhD basis 
