@@ -60,9 +60,15 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
-  projects:
+#  projects:
+#    output: true
+#    permalink: /projects/:path/
+  teaching:
     output: true
-    permalink: /projects/:path/
+    permalink: /teaching/:path/
+  places:
+    output: true
+    permalink: /places/:path/
 
 news_limit: 5
 
@@ -97,7 +103,7 @@ scholar:
   order: descending
   bibliography_list_tag: ul
 
-  group_by: type
+#  group_by: type
 
   source: /_bibliography/
   bibliography: papers.bib
