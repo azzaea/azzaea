@@ -5,9 +5,9 @@ title: teaching
 description: Materials for courses you taught. Replace this text with your description.
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
 Organize your courses by years, topics, or universities, however you like!
+
+I developed and taught the following undergraduate *Control* courses at the [University of Khartoum](https://www.uofk.edu/index.php/en/): 
 
 {% for course in site.teaching %}
 
@@ -51,3 +51,4 @@ Organize your courses by years, topics, or universities, however you like!
 
 {% endfor %}
 
+Additionally, I taught in a few workshops on Bioinformatics related topics:
