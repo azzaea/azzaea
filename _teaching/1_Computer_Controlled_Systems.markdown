@@ -1,7 +1,7 @@
 ---
 layout: page
 title: EEE51402 
-description: Computer Controlled Systems 
+description: This material 
 img: /assets/img/12.jpg
 ---
 
@@ -29,6 +29,15 @@ The code is simple. Just add a col class to your image, and another class specif
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
 
+<br/><br/>
+<br/><br/>
+<br/><br/>
 
+<center>
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This Material</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://zo0z.github.io" property="cc:attributionName" rel="cc:attributionURL">Azza E Ahmed</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+</center>
 
-
+<center>
+<i class="fab fa-creative-commons-by fa-2x"></i>
+<i class="fab fa-creative-commons-sa fa-2x"></i>
+</center>
