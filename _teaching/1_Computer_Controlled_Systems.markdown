@@ -1,8 +1,8 @@
 ---
 layout: page
 title: EEE51402 
-description: This material 
-img: /assets/img/12.jpg
+description: Computer Controlled Systems
+img: /assets/img/tomasz-zagorski-1293091-unsplash.jpg
 ---
 
 This is an undergraduate course taught at the Department of Electrical & Electronic Engineering, Faculty of Engineering, University of Khartoum. Target audience were 5th year Control and Instrumentation students. I have been leading this course for a few years now. Previously as a teaching assistant however. It also ran by a different code: SC514
