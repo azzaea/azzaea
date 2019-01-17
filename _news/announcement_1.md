@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2019-01-03 10:59:00-0400
+date: 2019-01-17 12:59:00-0400
 inline: true
 ---
 
-The Dean of the Graduate College has approved my request for joining the University of Groningen on a Double PhD basis 
+The Vice-Chancellor of the [University of Khartoum](https://www.uofk.edu/index.php/en/) has signed off my double PhD contract with the [University of Groningen](https://www.rug.nl/?lang=en).
