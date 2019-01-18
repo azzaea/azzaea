@@ -10,6 +10,6 @@ years: [2017, 2018, 2019]
 {% for year in page.years %}
   <h4 class="year">{{year}}</h4>
   <br/> <br/>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
+  {% bibliography -f papers -q @*[year={{year}}]* %}
 {% endfor %}
 
