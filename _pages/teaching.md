@@ -5,8 +5,6 @@ title: teaching
 description: Materials for courses you taught. Replace this text with your description.
 ---
 
-Organize your courses by years, topics, or universities, however you like!
-
 I developed and taught the following undergraduate *Control* courses at the [University of Khartoum](https://www.uofk.edu/index.php/en/): 
 
 {% for course in site.teaching %}
