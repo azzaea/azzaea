@@ -101,7 +101,8 @@ scholar:
 
   sort_by: year
   order: descending
-  bibliography_list_tag: ul
+
+  group_by: key
 
 #  group_by: type
 
