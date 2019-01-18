@@ -1,7 +1,7 @@
 ---
 layout: post
 title: This site comes to life- real story :sparkles: 
-date: 2019-01-01 00:00:00-0000
+date: 2222-01-01 00:00:00-0000
 inline: false
 ---
 
@@ -17,6 +17,7 @@ The real reason is of course, besides being a valid procrastination execuse, is 
     <li>_Migrate my old `blog`:_ Sometime ago, I used to have [another blog](https://azzaeahmed.wordpress.com/). While yes, it is all personal stuff anyways, I don't feel right about throwing it away or duplication. My simple plan is to follow handy tips from [here](https://girliemac.com/blog/2013/12/27/wordpress-to-jekyll/) or [here](https://benjamintravis.com/blog/jekyll-github-pages-from-wordpress)</li>
     <li>_Adding `places`_: I like to be able to show places I visited, with some annotations on when/why or even a nice photo.</li>
     <li>_Adding courses to `[teaching](teaching)`:_ I only mashed up some random content for my courses [here](teaching). Clean up is obviously needed </li>
+    <li> _`Tags` :exclamation:_ I find a blog meaningless if not sortable easily. Would like to be able to use tags in my blog posts or long announcements </li>
 </ul>
 
 
