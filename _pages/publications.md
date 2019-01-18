@@ -9,6 +9,6 @@ categories: [NGS pipelines, Scientific comminications]
 
 {% for y in page.categories %}
   <h3 class="year">{{y}}</h3>
-  {% bibliography -f papers -q @*[key={{y}}]* %}
+  {%comment%}  {% bibliography -f papers -q @*[key={{y}}]* %} {%endcomment%}
 {% endfor %}
 

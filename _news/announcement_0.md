@@ -13,10 +13,10 @@ The real reason is of course, besides being a valid procrastination execuse, is 
 
 #### Wish list
 <ul>
-    <li>_Hosting in a service like [cloudfare]():_ [Github pages](https://pages.github.com/) are nice and all that, but I'm not happy about how my publications appear (or don't at the moment [xx(] ). The current build error regards use of [Jekyll Scholr plugin](https://github.com/inukshuk/jekyll-scholar) which is not supported in [Github pages](https://pages.github.com/). I would like to be able to group by theme rather than year (which is already possible neatly in [Google Scholar](https://scholar.google.com/citations?hl=en&user=o1cLpcQAAAAJ&view_op=list_works&sortby=pubdate)), so I do need the plugin, and I do want my freedom! </li>
-    <li>i_Migrate old content:_ Sometime ago, I used to have [another blog](https://azzaeahmed.wordpress.com/). While yes, it is all personal stuff anyways, I don't feel right about throwing it away or duplication. My simple plan is to follow handy tips from [here](https://girliemac.com/blog/2013/12/27/wordpress-to-jekyll/) or [here](https://benjamintravis.com/blog/jekyll-github-pages-from-wordpress)</li>
-    <li>_Adding places_: I like to be able to show places I visited, with some annotations on when/why or even a nice photo.</li>
-    <li>_Adding courses to teaching:_ I only mashed up some random content for my courses [here](teaching/). Clean up is obviously needed </li>
+    <li>_Show my `[publications](publications)`:_ [Jekyll Scholr plugin](https://github.com/inukshuk/jekyll-scholar) does not play nicely with [Github pages](https://pages.github.com/), so it is rather a challenge to show [publications](publications) in categories. I would like this freedom, hence I'm planning to move to [cloudfare]() at some point </li>
+    <li>_Migrate my old `blog`:_ Sometime ago, I used to have [another blog](https://azzaeahmed.wordpress.com/). While yes, it is all personal stuff anyways, I don't feel right about throwing it away or duplication. My simple plan is to follow handy tips from [here](https://girliemac.com/blog/2013/12/27/wordpress-to-jekyll/) or [here](https://benjamintravis.com/blog/jekyll-github-pages-from-wordpress)</li>
+    <li>_Adding `places`_: I like to be able to show places I visited, with some annotations on when/why or even a nice photo.</li>
+    <li>_Adding courses to `[teaching](teaching)`:_ I only mashed up some random content for my courses [here](teaching). Clean up is obviously needed </li>
 </ul>
 
 
