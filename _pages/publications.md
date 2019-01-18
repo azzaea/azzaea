@@ -6,10 +6,9 @@ description: Publications by categories in reversed chronological order. Generat
 categories: [NGS & Computational pipelines, GWAS methods, Education & Scientific communication]
 ---
 
-
- for category in page.categories 
+{% for category in page.categories %}
   <h4 class="year">{{category}}</h4>
   <br/> <br/>
-  bibliography -f papers -q 
- endfor 
+  {% bibliography -f papers -q @*[domain={{cateogry}}]* %}
+{% endfor %}
 
