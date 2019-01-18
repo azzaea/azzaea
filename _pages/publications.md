@@ -11,6 +11,6 @@ categories [NGS & Computational pipelines, GWAS methods, Education & Scientific 
  for category in page.categories 
   <h4 class="year">{{category}}</h4>
   <br/> <br/>
-  {% bibliography -f papers -q 
+  bibliography -f papers -q 
  endfor 
 
