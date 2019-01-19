@@ -25,4 +25,5 @@ Excited about the future, this is a perfect match to my third-culture upbrining.
 Welcome to my space!
 
 
-
+#### Photo credits:
+Zahra Mungloo-Dilmohamud | BSc, MSc | University of Mauritius, Moka | UoM | Department of Digital Technologies
