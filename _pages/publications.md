@@ -10,6 +10,8 @@ categories: [NGS & Computational pipelines, Education & Scientific communication
 {% for y in page.categories %}
   <h3 class="year">{{y}}</h3>
   <br>
+  {% comment %}
   {% bibliography -f papers -q @*[category={{y}}]* %}
+  {% endcomment %}
 {% endfor %}
 
