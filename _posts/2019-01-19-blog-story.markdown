@@ -32,7 +32,34 @@ After lingering in my to-do list for so long, I'm finally setting up my own site
 - _Social integration_: <br>
   Of course, would be nice to push to [Twitter](https://twitter.com/) rather automatically!
 
+
+#### Formating tips:
+
+- _Including code:_ <br>
+  Simply, surround your code with liquid tags: {% raw  %} {% highlight c++ %}  CODE {% endhighlight %} {% endraw %}
+
+- _Including block quotes:_ <br>
+  Simply append your block with the symbol `>`. If you like to do it the `html` way, then use `<blockquote>` and `</blockquote>`
+
+- _Horizontal lines:_ <br>
+  Simply use `***` where you like it to be- or use `<hr>` if you prefer the `html` way
+
+- _Equations and math:_ <br>
+  The theme supports [KaTeX](https://khan.github.io/KaTeX/) engine, so you can use in-line equations via `$$` before and after the equation. Put it in a separate line if it is large
+
+- _Images and caption_: <br>
+  Use something as below:
+{% highlight html %}
+<div class="img_row">
+    <img class="col three" src="{{ site.baseurl }}/assets/img/7.jpg">
+</div>
+<div class="col three caption">
+    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all. 
+</div>
+{% endhighlight %}
+
 ***
+
 
 
 
