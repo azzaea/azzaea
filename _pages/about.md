@@ -25,4 +25,4 @@ Welcome to my space!
 
 
 #### Photo credits:
-Zahra Mungloo-Dilmohamud | BSc, MSc | University of Mauritius, Moka | UoM | Department of Digital Technologies
+This photo was taken during the [H3ABioNet]((https://h3abionet.org/) Annual General Meeting of 2015 at the yard of the [River Club conference center](http://riverclub.co.za/). Photo was taken by my friend [Zahra Mungloo-Dilmohamud]() from the [University of Mauritius](http://www.uom.ac.mu/)
