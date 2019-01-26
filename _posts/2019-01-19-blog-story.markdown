@@ -21,7 +21,9 @@ After lingering in my to-do list for so long, I'm finally setting up my own site
   It seems only right to have a single plact to put all my blogs, even though it is all personal stuff anyways. [This](https://benjamintravis.com/blog/jekyll-github-pages-from-wordpress) and [this](https://girliemac.com/blog/2013/12/27/wordpress-to-jekyll/) article are nice tutorials for going from [`wordpress`](https://wordpress.com/) to [`Jekyll`](https://jekyllrb.com/)
 
 - _Build my [`places`](/places) page:_ <br>
-  I like to be able to show places I visited, with some annotations on when/why or even a nice photo.
+  I like to be able to show places I visited, with some annotations on when/why or even a nice photo. A `location map` is nicely implemented in the [academicpages](https://academicpages.github.io/) theme, so check if you could adopt here. Code is [here](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb)
+
+> Remember to pay credit!
 
 - _Adding courses to my [`teaching`](/teaching) page:_ <br>
   I only mashed up some random content for my courses thus far. Clean up is obviously needed 
