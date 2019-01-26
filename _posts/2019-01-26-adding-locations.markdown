@@ -4,6 +4,8 @@ title: Adding maps in Jekyll
 description: A tutorial documenting how I added the interactive map in my places page
 date: 2019-01-26 00:11:00-0400 
 comments: true
+tags: [tutorial, jekyll, R, leaflet]
+categories: Tutorials
 ---
 
 > Obviously, I haven't figured this out yet. I'm just starting this post to pick up next time!

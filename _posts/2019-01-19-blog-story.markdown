@@ -4,6 +4,8 @@ title: A beginning story
 description: How this site came to life! 
 date: 2019-01-18 16:11:00-0400 
 comments: true
+tags: [story, blogging]
+categories: Web design
 ---
 
 After lingering in my to-do list for so long, I'm finally setting up my own site. This comes after learning about [Jekyll](https://jekyllrb.com/) as I was building the [Standard Operating Procedures site](https://h3abionet.github.io/H3ABionet-SOPs/) of the [H3ABioNet consortium](https://h3abionet.org/). It seemed such a loss not to extend the scope to my own universe, so here we go.
@@ -14,8 +16,8 @@ After lingering in my to-do list for so long, I'm finally setting up my own site
 
 #### My Wish list
 
-- _Build my [`places`](/places) page:_ <br>
-  I like to be able to show places I visited, with some annotations on when/why or even a nice photo. Technical details on how this is done will be posted [here ](/blog/2019/adding-locations/)
+- ~_Build my [`places`](/places) page:_~ <br>
+~  I like to be able to show places I visited, with some annotations on when/why or even a nice photo. Technical details on how this is done will be posted [here ](/blog/2019/adding-locations/) ~
 
 - _Add courses to my [`teaching`](/teaching) page:_ <br>
   I only mashed up some random content for my courses thus far. Clean up is obviously needed 
@@ -29,7 +31,7 @@ After lingering in my to-do list for so long, I'm finally setting up my own site
 > Also remember the EEESE blog, the taeaa blog, the cv-reading site, .. etc!
 
 - _Use `Tags` and wordclouds_ <br>
-   I find a blog meaningless if not sortable easily. Would like to be able to use tags in my blog posts or long announcements 
+   I find a blog meaningless if not sortable easily. Would like to be able to use tags in my blog posts or long announcements. I'm likely to need to play around with this file `blog/index.html`
 
 - _Social integration_: <br>
   Of course, would be nice to push to [Twitter](https://twitter.com/) rather automatically!
