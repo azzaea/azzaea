@@ -6,7 +6,7 @@ date: 2019-01-26 00:11:00-0400
 comments: true
 ---
 
-I think I travel a lot, and so it was important for me to include a places page to this site. Here is how:
+> Obviously, I haven't figured this out yet. I'm just starting this post to pick up next time!
 
 - _Build my [`places`](/places) page:_ 
   I like to be able to show places I visited, with some annotations on when/why or even a nice photo. A `location map` is nicely implemented in the [academicpages](https://academicpages.github.io/) theme, so check if you could adopt here. Code is [here](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), and is under MIT license

@@ -7,6 +7,7 @@ img: /assets/img/tomasz-zagorski-1293091-unsplash.jpg
 
 This is an undergraduate course taught at the Department of Electrical & Electronic Engineering, Faculty of Engineering, University of Khartoum. Target audience were 5th year Control and Instrumentation students. I have been leading this course for a few years now. Previously as a teaching assistant however. It also ran by a different code: SC514
 
+> Under construction!
 
 Things to include here:
 1. A broad description of the course
