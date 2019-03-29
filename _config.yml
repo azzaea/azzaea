@@ -66,9 +66,9 @@ collections:
   teaching:
     output: true
     permalink: /teaching/:path/
-  places:
-    output: true
-    permalink: /places/:path/
+#  places:
+#    output: true
+#    permalink: /places/:path/
 
 news_limit: 5
 
