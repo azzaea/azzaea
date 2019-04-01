@@ -13,21 +13,26 @@
   year={2017},
   publisher={Elsevier},
   html={http://dx.doi.org/10.1016/j.gheart.2017.01.005},
+  abstract = {Background: Although pockets of bioinformatics excellence have developed in Africa, generally, large-scale genomic data analysis has been limited by the availability of expertise and infrastructure. H3ABioNet, a pan-African bioinformatics network, was established to build capacity specifically to enable H3Africa (Human Heredity and Health in Africa) researchers to analyze their data in Africa. Since the inception of the H3Africa initiative, H3ABioNet's role has evolved in response to changing needs from the consortium and the African bioinformatics community.
+  Objectives: H3ABioNet set out to develop core bioinformatics infrastructure and capacity for genomics research in various aspects of data collection, transfer, storage, and analysis.
+  Methods and Results: Various resources have been developed to address genomic data management and analysis needs of H3Africa researchers and other scientific communities on the continent. NetMap was developed and used to build an accurate picture of network performance within Africa and between Africa and the rest of the world, and Globus Online has been rolled out to facilitate data transfer. A participant recruitment database was developed to monitor participant enrollment, and data is being harmonized through the use of ontologies and controlled vocabularies. The standardized metadata will be integrated to provide a search facility for H3Africa data and biospecimens. Because H3Africa projects are generating large-scale genomic data, facilities for analysis and interpretation are critical. H3ABioNet is implementing several data analysis platforms that provide a large range of bioinformatics tools or workflows, such as Galaxy, the Job Management System, and eBiokits. A set of reproducible, portable, and cloud-scalable pipelines to support the multiple H3Africa data types are also being developed and dockerized to enable execution on multiple computing infrastructures. In addition, new tools have been developed for analysis of the uniquely divergent African data and for downstream interpretation of prioritized variants. To provide support for these and other bioinformatics queries, an online bioinformatics helpdesk backed by broad consortium expertise has been established. Further support is provided by means of various modes of bioinformatics training.
+  Conclusions: For the past 4 years, the development of infrastructure support and human capacity through H3ABioNet, have significantly contributed to the establishment of African scientific networks, data analysis facilities, and training programs. Here, we describe the infrastructure and how it has affected genomics and bioinformatics research in Africa.},
   category={Education & Scientific communications}
 }
 
-@article{ahmed2018organizing,
+@article{ahmed2018non-tech-hack,
   title={Organizing and running bioinformatics hackathons within Africa: The H3ABioNet cloud computing experience},
   author={Ahmed, Azza E and Mpangase, Phelelani T and Panji, Sumir and Baichoo, Shakuntala and Botha, Gerrit and Fadlelmola, Faisal M and Hazelhurst, Scott and Van Heusden, Peter and Jongeneel, C Victor and Joubert, Fourie and others},
   journal={AAS Open Research},
   volume={1},
   year={2018},
   html={https://doi.org/10.12688/aasopenres.12847.1},
-  pdf={ahmed2018organizing.pdf},
+  abstract = { The need for portable and reproducible genomics analysis pipelines is growing globally as well as in Africa, especially with the growth of collaborative projects like the Human Health and Heredity in Africa Consortium (H3Africa). The Pan-African H3Africa Bioinformatics Network (H3ABioNet) recognized the need for portable, reproducible pipelines adapted to heterogeneous compute environments, and for the nurturing of technical expertise in workflow languages and containerization technologies. To address this need, in 2016 H3ABioNet arranged its first Cloud Computing and Reproducible Workflows Hackathon, with the purpose of building key genomics analysis pipelines able to run on heterogeneous computing environments and meeting the needs of H3Africa research projects. This paper describes the preparations for this hackathon and reflects upon the lessons learned about its impact on building the technical and scientific expertise of African researchers. The workflows developed were made publicly available in GitHub repositories and deposited as container images on quay.io. },
+  pdf={ahmed2018non-tech-hack.pdf},
   category={Education & Scientific communications}
 }
 
-@Article{Baichoo2018,
+@Article{baichoo2018hackathon,
     author="Baichoo, Shakuntala and Souilmi, Yassine and Panji, Sumir and Botha, Gerrit and Meintjes, Ayton and Hazelhurst, Scott and Bendou, Hocine and Beste, Eugene de and Mpangase, Phelelani T. and Souiai, Oussema and Alghali, Mustafa and Yi, Long and O'Connor, Brian D. and Crusoe, Michael and Armstrong, Don and Aron, Shaun and Joubert, Fourie and Ahmed, Azza E. and Mbiyavanga, Mamana and Heusden, Peter van and Magosi, Lerato E. and Zermeno, Jennie and Mainzer, Liudmila Sergeevna and Fadlelmola, Faisal M. and Jongeneel, C. Victor and Mulder, Nicola",
     title="Developing reproducible bioinformatics analysis workflows for heterogeneous computing environments to support African genomics",
     journal="BMC Bioinformatics",
@@ -37,36 +42,46 @@
     volume="19",
     number="1",
     pages="457",
-    pdf={https://rdcu.be/bb7Pc},
+    html={https://rdcu.be/bb7Pc},
     issn="1471-2105",
     doi="10.1186/s12859-018-2446-1",
-    html="https://doi.org/10.1186/s12859-018-2446-1",
+    pdf="baichoo2018hackathon.pdf",
+    abstract = {The Pan-African bioinformatics network, H3ABioNet, comprises 27 research institutions in 17 African countries. H3ABioNet is part of the Human Health and Heredity in Africa program (H3Africa), an African-led research consortium funded by the US National Institutes of Health and the UK Wellcome Trust, aimed at using genomics to study and improve the health of Africans. A key role of H3ABioNet is to support H3Africa projects by building bioinformatics infrastructure such as portable and reproducible bioinformatics workflows for use on heterogeneous African computing environments. Processing and analysis of genomic data is an example of a big data application requiring complex interdependent data analysis workflows. Such bioinformatics workflows take the primary and secondary input data through several computationally-intensive processing steps using different software packages, where some of the outputs form inputs for other steps. Implementing scalable, reproducible, portable and easy-to-use workflows is particularly challenging.
+    Results: H3ABioNet has built four workflows to support (1) the calling of variants from high-throughput sequencing data; (2) the analysis of microbial populations from 16S rDNA sequence data; (3) genotyping and genome-wide association studies; and (4) single nucleotide polymorphism imputation. A week-long hackathon was organized in August 2016 with participants from six African bioinformatics groups, and US and European collaborators. Two of the workflows are built using the Common Workflow Language framework (CWL) and two using Nextflow. All the workflows are containerized for improved portability and reproducibility using Docker, and are publicly available for use by members of the H3Africa consortium and the international research community.
+    Conclusion: The H3ABioNet workflows have been implemented in view of offering ease of use for the end user and high levels of reproducibility and portability, all while following modern state of the art bioinformatics data processing protocols. The H3ABioNet workflows will service the H3Africa consortium projects and are currently in use. All four workflows are also publicly available for research scientists worldwide to use and adapt for their respective needs. The H3ABioNet workflows will help develop bioinformatics capacity and assist genomics research within Africa and serve to increase the scientific output of H3Africa and its Pan-African Bioinformatics Network.
+    },
     category={NGS & Computational pipelines}
 }
-@article {Ahmed524645,
+@article {ahmed2019swift,
     author = {Ahmed, Azza and Heldenbrand, Jacob and Asmann, Yan and Fadlelmola, Faisal and Katz, Daniel and Kendig, Katherine and Kendzior, Matthew and Li, Tiffany and Ren, Yingxue and Rodriguez, Elliott and Weber, Matthew and Zermeno, Jennie and Wozniak, Justin and Mainzer, Liudmila  Sergeevna},
      title = {Managing genomic variant calling workflows with Swift/T},
      year = {2019},
      doi = {10.1101/524645},
      publisher = {Cold Spring Harbor Laboratory},
      html = {https://doi.org/10.1101/524645},
-     pdf = {https://www.biorxiv.org/content/early/2019/01/18/524645.full.pdf},
+     pdf = {ahmed2019swift.pdf},
+     abstract = {Genomic variant discovery is frequently performed using the GATK Best Practices variant calling pipeline, a complex workflow with multiple steps, fans/merges, and conditionals. This complexity makes management of the workflow difficult on a computer cluster, especially when running in parallel on large batches of data: hundreds or thousands of samples at a time. Here we describe a wrapper for the GATK-based variant calling workflow using the Swift/T parallel scripting language. Standard built-in features include the flexibility to split by chromosome before variant calling, optionally permitting the analysis to continue when faulty samples are detected, and allowing users to analyze multiple samples in parallel within each cluster node. The use of Swift/T conveys two key advantages: (1) Thanks to the embedded ability of Swift/T to transparently operate in multiple cluster scheduling environments (PBS Torque, SLURM, Cray aprun environment, etc.,) a single workflow is trivially portable across numerous clusters; (2) The leaf functions of Swift/T permit developers to easily swap executables in and out of the workflow, conditional on the analyst's choice, which makes the workflow easy to maintain. This modular design permits separation of the workflow into multiple stages and the request of resources optimal for each stage of the pipeline. While Swift/T's implicit data-level parallelism eliminates the need for the developer to code parallel analysis of multiple samples, it does make debugging of the workflow a bit more difficult, as is the case with any implicitly parallel code. With the above features, users have a powerful and portable way to scale up their variant calling analysis to run in many traditional computer cluster architectures. https://github.com/ncsa/Swift-T-Variant-Calling http://swift-t-variant-calling.readthedocs.io/en/latest/},
      journal = {bioRxiv},
      category={NGS & Computational pipelines}
 }
 
-@article{10.1093/bib/bbz004,
+@article{ahmed2019ibt,
     author = {Ahmed, Azza E and Awadallah, Ayah A  and Tagelsir, Mawada and Suliman, Maram A and Eltigani, Atheer and Elsafi, Hassan  and Hamdelnile, Basil D and Mukhtar, Mohamed A and Fadlelmola, Faisal M},
     title = "{Delivering blended bioinformatics training in resource-limited settings: a case study on the University of Khartoum H3ABioNet node}",
+    journal={Briefings in bioinformatics},
     year = {2019},
     month = {02},
     doi = {10.1093/bib/bbz004},
     html = {https://dx.doi.org/10.1093/bib/bbz004},
+    pdf = {ahmed2019ibt.pdf},
+    abstract = {Motivation: Delivering high-quality distance-based courses in resource-limited settings is a challenging task. Besides the needed infrastructure and expertise, effective delivery of a bioinformatics course could benefit from hands-on sessions, interactivity and problem-based learning approaches.
+    Results: In this article, we discuss the challenges and best practices in delivering bioinformatics training in resource-limited settings taking the example of hosting and running a multiple-delivery online course, Introduction to Bioinformatics, that was developed by the H3ABioNet Education and Training working group and delivered in 27 remote classrooms across Africa in 2017. We take the case of the University of Khartoum classrooms. Believing that our local setting is similar to others in less-developed countries, we also reflect upon aspects like classroom environment and recruitment of students to maximize outcomes.
+    Keywords: bioinformatics training, blended learning, bMOOC, distance-based learning, resource-limited settings},
     category = {Education & Scientific communications},
     preprint = {https://doi.org/10.1101/431361}
 }
 
-@article {Chapman581264,
+@article {Chapman2019svcurator,
 	author = {Chapman, Lesley M and Spies, Noah and Pai, Patrick and Lim, Chun Shen and Carroll, Andrew and Narzisi, Giuseppe and Watson, Christopher M. and Proukakis, Christos and Clarke, Wayne E. and Nariai, Naoki and Dawson, Eric and Jones, Garan and Blankenberg, Daniel and Brueffer, Christian and Xiao, Chunlin and Kolora, Sree Rohit Raj and Alexander, Noah and Wolujewicz, Paul and Ahmed, Azza and Smith, Graeme and Shehreen, Saadlee and Wenger, Aaron M. and Salit, Marc and Zook, Justin M.},
 	title = {SVCurator: A Crowdsourcing app to visualize evidence of structural variants for the human genome},
 	elocation-id = {581264},
@@ -74,8 +89,8 @@
 	doi = {10.1101/581264},
 	publisher = {Cold Spring Harbor Laboratory},
 	abstract = {A high quality benchmark for small variants encompassing 88 to 90\% of the reference genome has been developed for seven Genome in a Bottle (GIAB) reference samples. However a reliable benchmark for large indels and structural variants (SVs) is yet to be defined. In this study, we manually curated 1235 SVs which can ultimately be used to evaluate SV callers or train machine learning models. We developed a crowdsourcing app - SVCurator - to help curators manually review large indels and SVs within the human genome, and report their genotype and size accuracy. SVCurator is a Python Flask-based web platform that displays images from short, long, and linked read sequencing data from the GIAB Ashkenazi Jewish Trio son [NIST RM 8391/HG002]. We asked curators to assign labels describing SV type (deletion or insertion), size accuracy, and genotype for 1235 putative insertions and deletions sampled from different size bins between 20 and 892,149 bp. The crowdsourced results were highly concordant with 37 out of the 61 curators having at least 78\% concordance with a set of expert curators, where there was 93\% concordance amongst expert curators. This produced high confidence labels for 935 events. When compared to the heuristic-based draft benchmark SV callset from GIAB, the SVCurator crowdsourced labels were 94.5\% concordant with the benchmark set. We found that curators can successfully evaluate putative SVs when given evidence from multiple sequencing technologies.},
-	URL = {https://www.biorxiv.org/content/early/2019/03/25/581264},
-	pdf = {https://www.biorxiv.org/content/early/2019/03/25/581264.full.pdf},
+	html = {https://www.biorxiv.org/content/early/2019/03/25/581264},
+	pdf = {chapman2019svcurator.pdf},
 	journal = {bioRxiv},
 	category={NGS & Computational pipelines}
 }
@@ -90,7 +105,6 @@
         volume = {15},
         html = {https://doi.org/10.1371/journal.pcbi.1006671},
         pages = {1-7},
-        abstract = {},
         number = {4},
         doi = {10.1371/journal.pcbi.1006671},
         category={Education & Scientific communications},
