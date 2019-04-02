@@ -14,8 +14,6 @@ _An asterisk (*) indicates equal contribution to a scholarly work_
 {% for y in page.categories %}
   <h3 class="year">{{y}}</h3>
   <br>
-  {% comment %}
   {% bibliography -f papers -q @*[category={{y}}]* %}
-  {% endcomment %}
 {% endfor %}
 
