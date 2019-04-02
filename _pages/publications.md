@@ -9,6 +9,8 @@ categories: [NGS & Computational pipelines, Education & Scientific communication
 
 > Under construction!
 
+_An asterisk (*) indicates equal contribution to a scholarly work_
+
 {% for y in page.categories %}
   <h3 class="year">{{y}}</h3>
   <br>
