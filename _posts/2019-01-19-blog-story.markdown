@@ -45,7 +45,7 @@ Finally, this very site comes after learning about [Jekyll](https://jekyllrb.com
   I only mashed up some random content for my courses thus far. Clean up is obviously needed 
 
 - _Show my [`publications`](/publications):_ <br>
- [Jekyll Scholr plugin](https://github.com/inukshuk/jekyll-scholar) does not play nicely with [Github pages](https://pages.github.com/), so it is rather a challenge to show [my publications here](/publications) in categories. I would like this freedom, hence I'm guessing will need to move to [cloudfare]() at some point (or a similar service!).
+ [Jekyll Scholr plugin](https://github.com/inukshuk/jekyll-scholar) does not play nicely with [Github pages](https://pages.github.com/), so it is rather a challenge to show [my publications here](/publications) in categories. I would like this freedom, hence I'm guessing will need to move to [cloudfare](https://www.cloudflare.com/) at some point (or a similar service!).
 
 - _Migrate [my old `blog`](https://azzaeahmed.wordpress.com/):_ <br>
   It seems only right to have a single plact to put all my blogs, even though it is all personal stuff anyways. [This](https://benjamintravis.com/blog/jekyll-github-pages-from-wordpress) and [this](https://girliemac.com/blog/2013/12/27/wordpress-to-jekyll/) article are nice tutorials for going from [`wordpress`](https://wordpress.com/) to [`Jekyll`](https://jekyllrb.com/)

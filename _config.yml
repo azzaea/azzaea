@@ -30,8 +30,8 @@ contact_note: >
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: A learning journey 
-blog_description: Under construction 
+blog_name: 
+blog_description: A learning journey 
 
 # Pagination
 paginate: 4
