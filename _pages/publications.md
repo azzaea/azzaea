@@ -7,15 +7,12 @@ years: [2017, 2018, 2019]
 categories: [NGS & Computational pipelines, Education & Scientific communications] 
 ---
 
-> Under construction!
 
 _An asterisk (*) indicates equal contribution to a scholarly work_
 
 {% for y in page.categories %}
   <h3 class="year">{{y}}</h3>
   <br>
-   {% comment %}
-    {% bibliography -f papers -q @*[category={{y}}]* %}
-   {% endcomment %}
+   {% bibliography -f papers -q @*[category={{y}}]* %}
 {% endfor %}
 
