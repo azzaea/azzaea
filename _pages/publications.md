@@ -10,9 +10,8 @@ categories: [NGS & Computational pipelines, Education & Scientific communication
 
 _An asterisk (*) indicates equal contribution to a scholarly work_
 
-{% for y in page.categories %}
-  <h3 class="year">{{y}}</h3>
-  <br>
-   {% bibliography -f papers -q @*[category={{y}}]* %}
+{% for c in page.categories %}
+  <h3 class="category">{{c}}</h3>
+   {% bibliography --query @*[category={{c}}]* %}
 {% endfor %}
 

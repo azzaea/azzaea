@@ -53,18 +53,6 @@
     },
     category={NGS & Computational pipelines}
 }
-@article {ahmed2019swift,
-    author = {Ahmed, Azza* and Heldenbrand, Jacob* and Asmann, Yan and Fadlelmola, Faisal and Katz, Daniel and Kendig, Katherine and Kendzior, Matthew and Li, Tiffany and Ren, Yingxue and Rodriguez, Elliott and Weber, Matthew and Zermeno, Jennie and Wozniak, Justin and Mainzer, Liudmila  Sergeevna},
-     title = {Managing genomic variant calling workflows with Swift/T},
-     year = {2019},
-     doi = {10.1101/524645},
-     publisher = {Cold Spring Harbor Laboratory},
-     html = {https://doi.org/10.1101/524645},
-     pdf = {ahmed2019swift.pdf},
-     abstract = {Genomic variant discovery is frequently performed using the GATK Best Practices variant calling pipeline, a complex workflow with multiple steps, fans/merges, and conditionals. This complexity makes management of the workflow difficult on a computer cluster, especially when running in parallel on large batches of data: hundreds or thousands of samples at a time. Here we describe a wrapper for the GATK-based variant calling workflow using the Swift/T parallel scripting language. Standard built-in features include the flexibility to split by chromosome before variant calling, optionally permitting the analysis to continue when faulty samples are detected, and allowing users to analyze multiple samples in parallel within each cluster node. The use of Swift/T conveys two key advantages: (1) Thanks to the embedded ability of Swift/T to transparently operate in multiple cluster scheduling environments (PBS Torque, SLURM, Cray aprun environment, etc.,) a single workflow is trivially portable across numerous clusters; (2) The leaf functions of Swift/T permit developers to easily swap executables in and out of the workflow, conditional on the analyst's choice, which makes the workflow easy to maintain. This modular design permits separation of the workflow into multiple stages and the request of resources optimal for each stage of the pipeline. While Swift/T's implicit data-level parallelism eliminates the need for the developer to code parallel analysis of multiple samples, it does make debugging of the workflow a bit more difficult, as is the case with any implicitly parallel code. With the above features, users have a powerful and portable way to scale up their variant calling analysis to run in many traditional computer cluster architectures. https://github.com/ncsa/Swift-T-Variant-Calling http://swift-t-variant-calling.readthedocs.io/en/latest/},
-     journal = {bioRxiv},
-     category={NGS & Computational pipelines}
-}
 
 @article{ahmed2019ibt,
     author = {Ahmed, Azza E and Awadallah, Ayah A  and Tagelsir, Mawada and Suliman, Maram A and Eltigani, Atheer and Elsafi, Hassan  and Hamdelnile, Basil D and Mukhtar, Mohamed A and Fadlelmola, Faisal M},
@@ -74,6 +62,7 @@
     month = {02},
     doi = {10.1093/bib/bbz004},
     html = {https://dx.doi.org/10.1093/bib/bbz004},
+    biorxiv = {https://doi.org/10.1101/431361},
     pdf = {ahmed2019ibt.pdf},
     abstract = {Motivation: Delivering high-quality distance-based courses in resource-limited settings is a challenging task. Besides the needed infrastructure and expertise, effective delivery of a bioinformatics course could benefit from hands-on sessions, interactivity and problem-based learning approaches.
     Results: In this article, we discuss the challenges and best practices in delivering bioinformatics training in resource-limited settings taking the example of hosting and running a multiple-delivery online course, Introduction to Bioinformatics, that was developed by the H3ABioNet Education and Training working group and delivered in 27 remote classrooms across Africa in 2017. We take the case of the University of Khartoum classrooms. Believing that our local setting is similar to others in less-developed countries, we also reflect upon aspects like classroom environment and recruitment of students to maximize outcomes.
@@ -87,6 +76,7 @@
 	title = {SVCurator: A Crowdsourcing app to visualize evidence of structural variants for the human genome},
 	elocation-id = {581264},
 	year = {2019},
+    month = {05},
 	doi = {10.1101/581264},
 	publisher = {Cold Spring Harbor Laboratory},
 	abstract = {A high quality benchmark for small variants encompassing 88 to 90\% of the reference genome has been developed for seven Genome in a Bottle (GIAB) reference samples. However a reliable benchmark for large indels and structural variants (SVs) is yet to be defined. In this study, we manually curated 1235 SVs which can ultimately be used to evaluate SV callers or train machine learning models. We developed a crowdsourcing app - SVCurator - to help curators manually review large indels and SVs within the human genome, and report their genotype and size accuracy. SVCurator is a Python Flask-based web platform that displays images from short, long, and linked read sequencing data from the GIAB Ashkenazi Jewish Trio son [NIST RM 8391/HG002]. We asked curators to assign labels describing SV type (deletion or insertion), size accuracy, and genotype for 1235 putative insertions and deletions sampled from different size bins between 20 and 892,149 bp. The crowdsourced results were highly concordant with 37 out of the 61 curators having at least 78\% concordance with a set of expert curators, where there was 93\% concordance amongst expert curators. This produced high confidence labels for 935 events. When compared to the heuristic-based draft benchmark SV callset from GIAB, the SVCurator crowdsourced labels were 94.5\% concordant with the benchmark set. We found that curators can successfully evaluate putative SVs when given evidence from multiple sequencing technologies.},
@@ -111,3 +101,24 @@
         category={Education & Scientific communications},
         pdf = {fadlelmola2019webinars.pdf}
 }
+
+@article{10.1371/journal.pone.0211608,
+    author = {Ahmed, Azza E. AND Heldenbrand, Jacob AND Asmann, Yan AND Fadlelmola, Faisal M. AND Katz, Daniel S. AND Kendig, Katherine AND Kendzior, Matthew C. AND Li, Tiffany AND Ren, Yingxue AND Rodriguez, Elliott AND Weber, Matthew R. AND Wozniak, Justin M. AND Zermeno, Jennie AND Mainzer, Liudmila S.},
+    journal = {PLOS ONE},
+    publisher = {Public Library of Science},
+    title = {Managing genomic variant calling workflows with Swift/T},
+    year = {2019},
+    month = {07},
+    volume = {14},
+    html = {https://doi.org/10.1371/journal.pone.0211608},
+    pdf = {ahmed2019swift.pdf},
+    biorxiv = {https://doi.org/10.1101/524645},
+    pages = {1-20},
+    abstract = {Bioinformatics research is frequently performed using complex workflows with multiple steps, fans, merges, and conditionals. This complexity makes management of the workflow difficult on a computer cluster, especially when running in parallel on large batches of data: hundreds or thousands of samples at a time. Scientific workflow management systems could help with that. Many are now being proposed, but is there yet the “best” workflow management system for bioinformatics? Such a system would need to satisfy numerous, sometimes conflicting requirements: from ease of use, to seamless deployment at peta- and exa-scale, and portability to the cloud. We evaluated Swift/T as a candidate for such role by implementing a primary genomic variant calling workflow in the Swift/T language, focusing on workflow management, performance and scalability issues that arise from production-grade big data genomic analyses. In the process we introduced novel features into the language, which are now part of its open repository. Additionally, we formalized a set of design criteria for quality, robust, maintainable workflows that must function at-scale in a production setting, such as a large genomic sequencing facility or a major hospital system. The use of Swift/T conveys two key advantages. (1) It operates transparently in multiple cluster scheduling environments (PBS Torque, SLURM, Cray aprun environment, etc.), thus a single workflow is trivially portable across numerous clusters. (2) The leaf functions of Swift/T permit developers to easily swap executables in and out of the workflow, which makes it easy to maintain and to request resources optimal for each stage of the pipeline. While Swift/T’s data-level parallelism eliminates the need to code parallel analysis of multiple samples, it does make debugging more difficult, as is common for implicitly parallel code. Nonetheless, the language gives users a powerful and portable way to scale up analyses in many computing architectures. The code for our implementation of a variant calling workflow using Swift/T can be found on GitHub at https://github.com/ncsa/Swift-T-Variant-Calling, with full documentation provided at http://swift-t-variant-calling.readthedocs.io/en/latest/.},
+    number = {7},
+    doi = {10.1371/journal.pone.0211608},
+    category={NGS & Computational pipelines}
+}
+
+
+

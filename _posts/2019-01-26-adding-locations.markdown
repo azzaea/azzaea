@@ -60,4 +60,6 @@ Since I need the map to appear within the layout of my site (as opposed to filli
 <iframe src="MyPlacesMap.html" height="700" width="850" style="border:none;"></iframe>
 ```
 
-You can find the code and raw contents appearing on my map [here](https://github.com/azzaea/azzaea.github.io/places), and here is the code for my [places page](https://github.com/azzaea/azzaea.github.io/_pages/places.md)
+Which gives me the map below:
+<iframe src="../../places/MyPlacesMap.html" height="700" width="850" style="border:none;"></iframe>
+

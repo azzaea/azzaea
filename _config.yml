@@ -99,8 +99,9 @@ scholar:
   style: assets/bibliography/ieee-with-url.csl # apa
   locale: en
 
-  sort_by: year
+  sort_by: year, month
   order: descending
+  bibliography_list_tag: ul
 
 #  group_by: type
 
